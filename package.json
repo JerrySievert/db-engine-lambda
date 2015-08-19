@@ -1,0 +1,22 @@
+{
+  "name": "db-engine-lambda",
+  "version": "1.0.0",
+  "description": "Lambda functionality for db-engine",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "lambda",
+    "db-engine"
+  ],
+  "author": "Jerry Sievert <code@legitimatesounding.com>",
+  "license": "ISC",
+  "dependencies": {
+    "posix": "^2.0.1",
+    "tmp": "0.0.27"
+  },
+  "devDependencies": {
+    "vows": "^0.8.1"
+  }
+}
